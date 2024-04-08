@@ -5,12 +5,11 @@
   align-items:center;
   justify-content: center;
   background:linear-gradient(black);
-  margin-left: 250px;
 }
 .calculator {
   padding:20px;
   border-radius: 10px;
-  background: gray;
+  background-color:  rgb(234 88 12);
 }
 form input {
   border: none;
@@ -19,10 +18,13 @@ form input {
   height:60px;
   background-color: white;
   margin:5px;
-  border-radius: 100px;
+  border-radius: 20px;
   font-weight: bolder;
   cursor:pointer;
   padding: 10px;
+}
+.display{
+  color: red;
 }
 form input[type="button"] :hover {
   color: purple;
