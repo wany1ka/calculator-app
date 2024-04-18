@@ -7,11 +7,11 @@ function App() {
       <div className="calculator">
         <form action="">
           <div className="display">
-            <input type="text" value={value} />
+            <input type="text" value={value} className='w-full text-right' />
           </div>
           <div className='calculations'>
-            <input className='button bg-red-950' type="button" value="AC" onClick={e => setValue('')} />
-            <input className='button bg-red-950' type="button" value="DEL" onClick={e => setValue(value.slice(0, -1))} />
+            <input className='button bg-red-900' type="button" value="AC" onClick={e => setValue('')} />
+            <input className='button bg-red-900' type="button" value="DEL" onClick={e => setValue(value.slice(0, -1))} />
             <input className='button bg-red-700' type="button" value="." onClick={e => setValue(value + e.target.value)} />
             <input className='button bg-red-700' type="button" value="/" onClick={e => setValue(value + e.target.value)} />
           </div>

@@ -26,6 +26,9 @@ form input {
 .display{
   color: red;
 }
+
+
+
 form input[type="button"] :hover {
   color: purple;
 }
